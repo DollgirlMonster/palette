@@ -113,7 +113,7 @@ function generatePalette() {
     let palette = {
         "fg": paletteRaw[0],
         "lighter": paletteRaw[2],
-        "midtone": paletteRaw[4],   // new!
+        "midtone": paletteRaw[3],   // new!
         "darker": paletteRaw[6],
         "bg": paletteRaw[7],
         "pop": paletteRaw[8],       // updated!

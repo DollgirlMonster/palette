@@ -73,7 +73,7 @@
   left: 30%; }
   .palette_test div:nth-of-type(4):before {
     content: "3";
-    content: "4 midtone"; }
+    content: "3 midtone"; }
 .palette_test div:nth-of-type(5) {
   background-color: var(--palette-4);
   left: 40%; }
