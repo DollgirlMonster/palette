@@ -98,10 +98,10 @@ function convertOKLCHColorToHexColor(color) {
 let paletteRaw = createHueShiftPalette(
     // Base palette settings
     {
-        l: 1,
-        c: 0.4,
-        // h: Math.random() * 360,
-        h: 250,
+        l: 0.5,
+        c: 0.1,
+        h: Math.random() * 360,
+        // h: 180,
         mode: "oklch"
     },
     0.1,      // minLightness
@@ -121,11 +121,11 @@ function generatePalette() {
         "0": paletteRaw[0],         // specific numeral entries just in case
         "1": paletteRaw[1],
         "2": paletteRaw[2],
-        "3": paletteRaw[3],
-        "4": paletteRaw[4],
-        "5": paletteRaw[5],
-        "6": paletteRaw[6],
-        "7": paletteRaw[7],
+        // "3": paletteRaw[3],      // 3 is removed -- it's the same color as 4 because of the way the palette is generated
+        "3": paletteRaw[4],
+        "4": paletteRaw[5],
+        "5": paletteRaw[6],
+        "6": paletteRaw[7],
     }
     return palette;
 }

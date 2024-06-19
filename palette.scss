@@ -55,7 +55,7 @@
         &:nth-of-type(#{$i}) {
             background-color: var(--palette-#{ $i - 1 });
             // special case for pop
-            @if $i == 9 {
+            @if $i == 8 {
                 background-color: var(--palette-pop);
             }
             left: (10% * ($i - 1));
@@ -67,15 +67,15 @@
                     content: "0 fg";
                 } @else if $i == 3 {
                     content: "2 lighter";
-                } @else if $i == 5 {
+                } @else if $i == 4 {
                     content: "4 midtone";
-                } @else if $i == 7 {
+                } @else if $i == 6 {
                     content: "6 darker";
                     color: white;
-                } @else if $i == 8 {
+                } @else if $i == 7 {
                     content: "7 bg";
                     color: white;
-                } @else if $i == 9 {
+                } @else if $i == 8 {
                     content: "pop";
                 }
             }

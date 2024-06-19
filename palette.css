@@ -1,0 +1,109 @@
+:root {
+  --palette-bg: white;
+  /* Overridden by js */
+  --palette-fg: black;
+  /* Overridden by js */
+  --palette-pop: red;
+  /* Overridden by js */
+  --palette-darker: grey;
+  /* Overridden by js */
+  --palette-lighter: gray;
+  /* Overridden by js */
+  --palette-0: #000000;
+  /* Overridden by js */
+  --palette-1: #FF0000;
+  /* Overridden by js */
+  --palette-2: #00FF00;
+  /* Overridden by js */
+  --palette-3: #0000FF;
+  /* Overridden by js */
+  --palette-4: #FFFF00;
+  /* Overridden by js */
+  --palette-5: #00FFFF;
+  /* Overridden by js */
+  --palette-6: #FF00FF;
+  /* Overridden by js */
+  --palette-7: #FFFFFF;
+  /* Overridden by js */ }
+
+/* Usage example */
+/* Palette test display */
+.palette_test {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.palette_test .palette_test {
+  width: 10%;
+  height: 10%;
+  display: block; }
+
+.palette_test div:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  text-align: center; }
+.palette_test div:nth-of-type(1) {
+  background-color: var(--palette-0);
+  left: 0%; }
+  .palette_test div:nth-of-type(1):before {
+    content: "0";
+    content: "0 fg"; }
+.palette_test div:nth-of-type(2) {
+  background-color: var(--palette-1);
+  left: 10%; }
+  .palette_test div:nth-of-type(2):before {
+    content: "1"; }
+.palette_test div:nth-of-type(3) {
+  background-color: var(--palette-2);
+  left: 20%; }
+  .palette_test div:nth-of-type(3):before {
+    content: "2";
+    content: "2 lighter"; }
+.palette_test div:nth-of-type(4) {
+  background-color: var(--palette-3);
+  left: 30%; }
+  .palette_test div:nth-of-type(4):before {
+    content: "3";
+    content: "4 midtone"; }
+.palette_test div:nth-of-type(5) {
+  background-color: var(--palette-4);
+  left: 40%; }
+  .palette_test div:nth-of-type(5):before {
+    content: "4"; }
+.palette_test div:nth-of-type(6) {
+  background-color: var(--palette-5);
+  left: 50%; }
+  .palette_test div:nth-of-type(6):before {
+    content: "5";
+    content: "6 darker";
+    color: white; }
+.palette_test div:nth-of-type(7) {
+  background-color: var(--palette-6);
+  left: 60%; }
+  .palette_test div:nth-of-type(7):before {
+    content: "6";
+    content: "7 bg";
+    color: white; }
+.palette_test div:nth-of-type(8) {
+  background-color: var(--palette-7);
+  background-color: var(--palette-pop);
+  left: 70%; }
+  .palette_test div:nth-of-type(8):before {
+    content: "7";
+    content: "pop"; }
+.palette_test div:nth-of-type(9) {
+  background-color: var(--palette-8);
+  left: 80%; }
+  .palette_test div:nth-of-type(9):before {
+    content: "8"; }
+
+/*# sourceMappingURL=palette.css.map */
