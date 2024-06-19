@@ -100,10 +100,5 @@
   .palette_test div:nth-of-type(8):before {
     content: "7";
     content: "pop"; }
-.palette_test div:nth-of-type(9) {
-  background-color: var(--palette-8);
-  left: 80%; }
-  .palette_test div:nth-of-type(9):before {
-    content: "8"; }
 
 /*# sourceMappingURL=palette.css.map */

@@ -51,7 +51,7 @@
     &:before {
         @include paletteMarkerBeforeCommon;
     }
-    @for $i from 1 through 9 {
+    @for $i from 1 through 8 {
         &:nth-of-type(#{$i}) {
             background-color: var(--palette-#{ $i - 1 });
             // special case for pop
