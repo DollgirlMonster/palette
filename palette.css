@@ -1,0 +1,21 @@
+:root {
+    --palette-bg: white;    /* Overridden by js */
+    --palette-fg: black;    /* Overridden by js */
+    --palette-pop: red;     /* Overridden by js */
+    --palette-darker: grey; /* Overridden by js */
+    --palette-lighter: gray;/* Overridden by js */
+
+    --palette-0: #000000;   /* Overridden by js */
+    --palette-1: #FF0000;   /* Overridden by js */
+    --palette-2: #00FF00;   /* Overridden by js */
+    --palette-3: #0000FF;   /* Overridden by js */
+    --palette-4: #FFFF00;   /* Overridden by js */
+    --palette-5: #00FFFF;   /* Overridden by js */
+    --palette-6: #FF00FF;   /* Overridden by js */
+    --palette-7: #FFFFFF;   /* Overridden by js */
+}
+
+/* Usage example */
+html {
+  background-color: var(--palette-darker);
+}
